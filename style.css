@@ -1,0 +1,115 @@
+*{transition: all .2s ease-in;}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #b07cf7;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 5vw;
+    margin-bottom: 0em;
+}
+p{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.main{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.block1{
+    width:27%;
+    margin: 1%;
+    background: linear-gradient(to top, #262626d5, #26262600), url(/img/first.png);
+    background-size:cover;
+    height:18vw;
+    min-width: 246.6px;
+    min-height: 206.6px;
+    position: relative;
+}
+.block2{
+    width:27%;
+    margin: 1%;
+    background: linear-gradient(to top, #262626d5, #26262600), url(/img/second.png);
+    background-size:cover;
+    height:18vw;
+    min-width: 246.6px;
+    min-height: 206.6px;
+    position: relative;
+}
+.block3{
+    width:27%;
+    margin: 1%;
+    background: linear-gradient(to top, #262626d5, #26262600), url(/img/third.png);
+    background-size:cover;
+    min-width: 246.6px;
+    min-height: 206.6px;
+    position: relative;
+    height:18vw;
+}
+.date{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #26262679;
+    width:3.2vw;
+    height: 3.2vw;
+    border-radius: 0.2em;
+    position: absolute;
+    top:8%;
+    left:8%;
+    min-width: 50px;
+    min-height: 50px;
+}
+.topic{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    top: 62%;
+    left: 6%
+}
+.author{
+    position: absolute;
+    font-size: 10px;
+    text-align: left;
+    left:6% ;
+    top: 86%;
+    margin-bottom: 1%
+}
+.button{
+    background-color: #f72b3b;
+    display: inline-block;
+    padding: 1% 2%;
+    width: 15%;
+    margin: auto;
+    margin-top: 3%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    outline: none;
+    display: block;
+}
+.block1:hover{
+    width: 30%;
+}
+.block2:hover{
+    width: 30%;
+}
+.block3:hover{
+    width: 30%;
+}
+.button:hover{
+    width: 18%;
+    background-color: #f72b3cb6 ;
+}
